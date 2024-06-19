@@ -43,11 +43,9 @@ ScrollReveal({
     delay: 200 
 })
 
-ScrollReveal().reveal('.home-img, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .heading, .about-img', { origin: 'top' });
 
-ScrollReveal().reveal('.home-content, .about-content, .services-container, .projects-container, form', { origin: 'bottom' });
-
-ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'right' });
+ScrollReveal().reveal('.home-content, .about-content , .services-container, .projects-container, form', { origin: 'bottom' });
 
 /* ------------------------------ typed js ------------------------------ */
 const typed = new Typed('.multiple-text', {

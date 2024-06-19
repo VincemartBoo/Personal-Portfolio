@@ -713,6 +713,12 @@ section {
         font-size: 1.6rem;
         padding: .6rem;
     }
+
+    .contact form .input-box .input-field {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(1fr));
+        width: 100%;
+    }
     
     .footer-text p {
         font-size: 1.3rem
@@ -813,11 +819,6 @@ section {
         padding: .2rem;
     }
 
-    .contact form .input-box {
-        display: grid;
-        grid-template-columns: 71rem;
-    }
-
     .footer-text p {
         font-size: 1.2rem
     }
@@ -904,11 +905,6 @@ section {
         font-size: .9rem;
     }
 
-    .contact form .input-box {
-        display: grid;
-        grid-template-columns: 62rem;
-    }
-
     .footer-text p {
         font-size: .82rem
     }
@@ -922,10 +918,6 @@ section {
 
     .projects-layer p {
         font-size: .6rem;
-    }
-    .contact form .input-box {
-        display: grid;
-        grid-template-columns: 54rem;
     }
 }
 
